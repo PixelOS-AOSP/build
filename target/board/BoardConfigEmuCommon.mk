@@ -33,6 +33,8 @@ ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
   # emulator needs super.img
   BOARD_BUILD_SUPER_IMAGE_BY_DEFAULT := true
 
+  BOARD_EXT4_SHARE_DUP_BLOCKS := true
+
   # 8G + 8M
   BOARD_SUPER_PARTITION_SIZE := 8598323200
   BOARD_SUPER_PARTITION_GROUPS := emulator_dynamic_partitions
