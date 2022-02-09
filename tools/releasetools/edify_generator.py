@@ -269,10 +269,10 @@ class EdifyGenerator(object):
     self.Print("----------------------------------------------")
     if is_plus:
       self.Print("    PixelishExperience (Plus edition)")
-      self.Print("          by Karan & tokatsu")
+      self.Print("       by Karan, tokatsu & Ashwin")
     else:
       self.Print("                PixelOS")
-      self.Print("           by Karan & tokatsu")
+      self.Print("       by Karan, tokatsu & Ashwin")
     self.Print("----------------------------------------------")
     self.Print(" Android version: %s"%(android_version))
     self.Print(" Build id: %s"%(build_id))
