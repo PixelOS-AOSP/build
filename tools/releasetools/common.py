@@ -4119,7 +4119,6 @@ class DynamicPartitionsDifference(object):
       comment('Remove all existing dynamic partitions and groups before '
               'applying full OTA')
       append('remove_all_groups')
-      append('remove scratch')
 
     for p, u in self._partition_updates.items():
       if u.src_group and not u.tgt_group:
