@@ -371,11 +371,6 @@ ifeq ($(RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE),true)
         com.android.webview.bootstrap
 endif
 
-ifneq (,$(RELEASE_RANGING_STACK))
-    PRODUCT_PACKAGES += \
-        com.android.ranging
-endif
-
 ifeq ($(RELEASE_MEMORY_MANAGEMENT_DAEMON),true)
   PRODUCT_PACKAGES += \
         mm_daemon
